@@ -1,3 +1,4 @@
+---
 - name: Create a snapshot
   community.vmware.vmware_guest_snapshot:
     hostname: "{{ vcenter_hostname }}"
