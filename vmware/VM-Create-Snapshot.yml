@@ -6,7 +6,7 @@
   tasks:
 - name: Create a snapshot
   community.vmware.vmware_guest_snapshot:
-    hostname: "{{ vcenter_hostname }}
+    hostname: "{{ vcenter_hostname }}"
     username: "{{ vcenter_username }}"
     password: "{{ vcenter_password }}"
     datacenter: "{{ datacenter_name }}"
