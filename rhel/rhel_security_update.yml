@@ -1,4 +1,4 @@
-- hosts: yum
+- hosts: "{{ host_vm }}"
   tasks:
   - name: Update all installed packages using YUM module
     yum:
